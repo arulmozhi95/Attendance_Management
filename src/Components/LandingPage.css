@@ -1,0 +1,47 @@
+/* General styles for the landing page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the navigation bar */
+nav {
+  background-color: #6200ea;
+  padding: 10px;
+}
+
+/* Unordered list styling */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* List item styling */
+nav ul li {
+  margin: 0 15px;
+}
+
+/* Link styling */
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  color: #ff6600; /* Hover color */
+}
+
+/* Active link styling */
+nav ul li.active a {
+  color: #ff6600; /* Active link color */
+ /* Underline active link */
+}
